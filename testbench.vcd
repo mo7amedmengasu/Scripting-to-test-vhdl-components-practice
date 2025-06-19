@@ -1,0 +1,49 @@
+$date
+  Thu Jun 19 13:40:45 2025
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module testbench $end
+$var integer 32 ! s1 $end
+$var integer 32 " s2 $end
+$upscope $end
+$enddefinitions $end
+#0
+b1 !
+b1001 "
+#10000000
+b10 !
+b1000 "
+#20000000
+b11 !
+b111 "
+#30000000
+b100 !
+b110 "
+#40000000
+b101 !
+b101 "
+#50000000
+b110 !
+b100 "
+#60000000
+b111 !
+b11 "
+#70000000
+b1000 !
+b10 "
+#80000000
+b1001 !
+b1 "
+#90000000
+b1010 !
+b0 "
+#100000000
+b1011 !
+b11111111111111111111111111111111 "
